@@ -1,9 +1,7 @@
 package cmall.domain;
 
-import cmall.domain.OrderAccepted;
 import cmall.domain.CookStarted;
 import cmall.domain.CookFinished;
-import cmall.domain.OrderRejected;
 import cmall.StoreApplication;
 import javax.persistence.*;
 import java.util.List;
@@ -74,11 +72,6 @@ public class FoodCooking  {
     public void onPostPersist(){
 
 
-        OrderAccepted orderAccepted = new OrderAccepted(this);
-        orderAccepted.publishAfterCommit();
-
-
-
         CookStarted cookStarted = new CookStarted(this);
         cookStarted.publishAfterCommit();
 
@@ -86,11 +79,6 @@ public class FoodCooking  {
 
         CookFinished cookFinished = new CookFinished(this);
         cookFinished.publishAfterCommit();
-
-
-
-        OrderRejected orderRejected = new OrderRejected(this);
-        orderRejected.publishAfterCommit();
 
     }
 
@@ -102,6 +90,12 @@ public class FoodCooking  {
 
 
     public void accept(AcceptCommand acceptCommand){
+        OrderRejected orderRejected = new OrderRejected(this);
+        orderRejected.publishAfterCommit();
+
+        OrderAccepted orderAccepted = new OrderAccepted(this);
+        orderAccepted.publishAfterCommit();
+
     }
 
     public static void orderinfoCopy(OrderPlaced orderPlaced){
