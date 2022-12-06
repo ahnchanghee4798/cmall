@@ -96,7 +96,8 @@
    1. 트래픽 라우팅 부문 신원 인가 부분 트래픽 메니져먼트 부문
       만들어 준것을 잘설명 한다.
 	  
-![image](https://user-images.githubusercontent.com/119610308/205788003-ab176f4d-79cc-4d5c-8df6-74ff3039a4aa.png)
+![image](https://user-images.githubusercontent.com/119610308/205837938-56897f6f-632a-41d9-9c7c-e1f3f1ee0e7b.png)
+
 
 
 
