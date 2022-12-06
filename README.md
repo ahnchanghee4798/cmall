@@ -60,8 +60,10 @@
 3. Compensation /Correlation
    제고 부족   / 키 버 톤과 같다 where 조건절
    
-  ![image](https://user-images.githubusercontent.com/119610308/205788110-e7f2dc4c-c6db-4cdc-817a-f427e153fa45.png)
-  ![image](https://user-images.githubusercontent.com/119610308/205788173-751540b0-e401-420f-a601-88fffb783f59.png)
+ ![image](https://user-images.githubusercontent.com/119610308/205835624-a163eebe-976b-4f53-8976-1140e4fbe4b7.png)
+  
+ ![image](https://user-images.githubusercontent.com/119610308/205835557-a16dd591-baf1-4bf5-9ecd-be3129f25964.png)
+
  
 
 
