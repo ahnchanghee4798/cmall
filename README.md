@@ -77,8 +77,10 @@
    반드시 해야 할대 동기 호출 할수 있다.
    10개 시나리오에서 변경해서 제출
    
- ![image](https://user-images.githubusercontent.com/119610308/205787878-d534a366-7c69-4474-b81c-2bf78eb2f4b8.png)
-![image](https://user-images.githubusercontent.com/119610308/205787903-99cb19eb-6eb6-47a3-b320-7681b432c2b6.png)
+![image](https://user-images.githubusercontent.com/119610308/205857455-ec7c53da-b07e-40c1-94a8-be97bea70852.png)
+   
+![image](https://user-images.githubusercontent.com/119610308/205857237-8ea3b85b-02b9-46ed-b55c-6b9c8cb6714c.png)
+
 
    
    
