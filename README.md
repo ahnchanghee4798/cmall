@@ -26,7 +26,15 @@
    
    
    
+   체크포인트
+   Saga (pub / Sub)
+
    
+   
+   CQRS
+   Command and Query Responsibility Segregation(명령과 조회의 책임 분리) 주문/결제/수락/거절/픽업/배송완료 상태변경, 고객이 수시로 상태확인 가능함
+
+
 
 # cmall
 
