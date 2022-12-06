@@ -67,7 +67,9 @@
    반드시 해야 할대 동기 호출 할수 있다.
    10개 시나리오에서 변경해서 제출
    
-   https://user-images.githubusercontent.com/12772082/203265993-8036b329-f9f7-4210-889b-7bc2d345c97e.png
+ ![image](https://user-images.githubusercontent.com/119610308/205787878-d534a366-7c69-4474-b81c-2bf78eb2f4b8.png)
+![image](https://user-images.githubusercontent.com/119610308/205787903-99cb19eb-6eb6-47a3-b320-7681b432c2b6.png)
+
    
    
    
@@ -77,7 +79,7 @@
    증적 자료가 있어야 한다.
    쿼리해서 워킹한다.
    
-   https://user-images.githubusercontent.com/12772082/203271787-55488e4e-6df8-4836-9c68-77fe0d8ac3ce.png
+  ![image](https://user-images.githubusercontent.com/119610308/205788027-8bfc952a-c0a3-4957-a499-2baf79a1ddbd.png)
    
    
 6. Gateway / Ingress
@@ -85,7 +87,8 @@
    1. 트래픽 라우팅 부문 신원 인가 부분 트래픽 메니져먼트 부문
       만들어 준것을 잘설명 한다.
 	  
-![image](https://user-images.githubusercontent.com/119610308/205787447-7e02bee0-6e2c-4642-8c74-6c94ea6ef618.png)
+![image](https://user-images.githubusercontent.com/119610308/205788003-ab176f4d-79cc-4d5c-8df6-74ff3039a4aa.png)
+
 
 
 
