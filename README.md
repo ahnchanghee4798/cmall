@@ -4,6 +4,8 @@
 [이벤트스토밍]
 
 
+   ![image](https://user-images.githubusercontent.com/119610308/205780494-e4d5606b-64b4-428c-9533-d051b71aad9b.png)
+
 # cmall
 
 
@@ -58,7 +60,6 @@
 1. Saga(Pub / Sub)  이벤트드리븐 테입 방식으로 녹아 있어야 하나. 디테일 하게 제출
    
    
-   ![image](https://user-images.githubusercontent.com/119610308/205780494-e4d5606b-64b4-428c-9533-d051b71aad9b.png)
 
    
 
