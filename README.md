@@ -38,7 +38,7 @@
 
 1. Saga(Pub / Sub)  이벤트드리븐 테입 방식으로 녹아 있어야 하나. 디테일 하게 제출
    
-   ![image](https://user-images.githubusercontent.com/119610308/205787617-1b10eb71-6e86-4d52-966b-8ffaf9f8b0d2.png)
+   ![image](https://user-images.githubusercontent.com/119610308/205835363-9f9fe8c1-f3ae-43ab-9beb-8c491508e645.png)
 
 
    
