@@ -45,12 +45,12 @@
 
 결과 제출 :
 > 수행 내용에 대한 결과과 리포팅을 구들 DOCS에 기재 (이름, URL 기재)
-리포팅 템플릿 Url : http
+리포팅 템플릿 Url : [http](https://github.com/ahnchanghee4798/cmall/blob/main/README.md)
 
 
 
-1. Saga(Pub / Sub)  이벤트드리븐 테입 방식으로 녹아 있어야 하나. 
-   디테일 하게 제출
+1. Saga(Pub / Sub)  이벤트드리븐 테입 방식으로 녹아 있어야 하나. 디테일 하게 제출
+   
    
    ![image](https://user-images.githubusercontent.com/119610308/205780494-e4d5606b-64b4-428c-9533-d051b71aad9b.png)
 
