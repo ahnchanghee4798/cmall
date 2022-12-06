@@ -55,8 +55,9 @@
 3. Compensation /Correlation
    제고 부족   / 키 버 톤과 같다 where 조건절
    
-   https://user-images.githubusercontent.com/12772082/203264287-8f407399-fe18-47f3-90ee-0a3c25c7c5ce.png
-   
+  ![image](https://user-images.githubusercontent.com/119610308/205788110-e7f2dc4c-c6db-4cdc-817a-f427e153fa45.png)
+  ![image](https://user-images.githubusercontent.com/119610308/205788173-751540b0-e401-420f-a601-88fffb783f59.png)
+ 
 
 
 4. Request / Response
