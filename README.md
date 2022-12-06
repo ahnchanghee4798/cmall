@@ -43,11 +43,15 @@
 
    
 
-2. CQRS 
+2. CQRS  v
    커맨터 액션 수정 삭제 추가
    데이터 프로덕션  
+   
+        ![image](https://user-images.githubusercontent.com/119610308/205808769-ea664826-b6bf-4dea-8996-b19326edcf24.png)
+
 	
-	![image](https://user-images.githubusercontent.com/119610308/205787604-5b7ccd39-6096-4594-997c-0cdf102d4914.png)
+	![image](https://user-images.githubusercontent.com/119610308/205808637-63621501-bda8-45e2-b1e7-698be6bc8355.png)
+
 
 	
 	
