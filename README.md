@@ -47,9 +47,10 @@
    커맨터 액션 수정 삭제 추가
    데이터 프로덕션  
    
-        ![image](https://user-images.githubusercontent.com/119610308/205808769-ea664826-b6bf-4dea-8996-b19326edcf24.png)
+        
 
-	
+	![image](https://user-images.githubusercontent.com/119610308/205808923-099a7142-3ecc-43fa-bef7-56f4d9390ed9.png)
+
 	![image](https://user-images.githubusercontent.com/119610308/205808637-63621501-bda8-45e2-b1e7-698be6bc8355.png)
 
 
