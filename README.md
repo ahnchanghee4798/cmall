@@ -4,7 +4,8 @@
 [이벤트스토밍]
 
 
-   ![image](https://user-images.githubusercontent.com/119610308/205780494-e4d5606b-64b4-428c-9533-d051b71aad9b.png)
+   ![image](https://user-images.githubusercontent.com/119610308/205835754-0d4847c6-94a6-42ed-909a-aab2a6012c9a.png)
+
    
    
    
