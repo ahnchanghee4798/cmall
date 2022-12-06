@@ -2,7 +2,7 @@
 
     <v-card outlined>
         <v-card-title>
-            Finish
+            ConfirmDelivery
         </v-card-title>
 
         <v-card-text>
@@ -13,9 +13,9 @@
             <v-btn
                     color="deep-purple lighten-2"
                     text
-                    @click="finish"
+                    @click="confirmDelivery"
             >
-                Finish
+                ConfirmDelivery
             </v-btn>
             
             <v-btn
@@ -33,7 +33,7 @@
 <script>
    
     export default {
-        name: 'FinishCommand',
+        name: 'ConfirmDeliveryCommand',
         components:{},
         props: {},
         data: () => ({
@@ -45,8 +45,8 @@
         watch: {
         },
         methods: {
-            finish() {
-                this.$emit('finish', this.value);
+            confirmDelivery() {
+                this.$emit('confirmDelivery', this.value);
             },
             close() {
                 this.$emit('closeDialog');

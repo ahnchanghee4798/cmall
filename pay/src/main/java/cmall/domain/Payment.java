@@ -1,7 +1,7 @@
 package cmall.domain;
 
 import cmall.domain.Paid;
-import cmall.FrontApplication;
+import cmall.PayApplication;
 import javax.persistence.*;
 import java.util.List;
 import lombok.Data;
@@ -47,7 +47,7 @@ public class Payment  {
     }
 
     public static PaymentRepository repository(){
-        PaymentRepository paymentRepository = FrontApplication.applicationContext.getBean(PaymentRepository.class);
+        PaymentRepository paymentRepository = PayApplication.applicationContext.getBean(PaymentRepository.class);
         return paymentRepository;
     }
 
