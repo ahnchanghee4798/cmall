@@ -27,16 +27,66 @@
    
    
    체크포인트
-   Saga (pub / Sub)
+
+
+
+
+
+
+
+
+
+1. Saga(Pub / Sub)  이벤트드리븐 테입 방식으로 녹아 있어야 하나. 디테일 하게 제출
+   
+   ![image](https://user-images.githubusercontent.com/119610308/205787617-1b10eb71-6e86-4d52-966b-8ffaf9f8b0d2.png)
+
 
    
+
+2. CQRS 
+   커맨터 액션 수정 삭제 추가
+   데이터 프로덕션  
+	
+	![image](https://user-images.githubusercontent.com/119610308/205787604-5b7ccd39-6096-4594-997c-0cdf102d4914.png)
+
+	
+	
    
-   CQRS
-   Command and Query Responsibility Segregation(명령과 조회의 책임 분리) 주문/결제/수락/거절/픽업/배송완료 상태변경, 고객이 수시로 상태확인 가능함
+3. Compensation /Correlation
+   제고 부족   / 키 버 톤과 같다 where 조건절
+   
+   https://user-images.githubusercontent.com/12772082/203264287-8f407399-fe18-47f3-90ee-0a3c25c7c5ce.png
+   
 
 
+4. Request / Response
+   동기 호출
+   
+   기존 주문이 되었을때 동기 통신
+   사가를 이용해서 주문이 시작 해서 호출이 되고
+   반드시 해야 할대 동기 호출 할수 있다.
+   10개 시나리오에서 변경해서 제출
+   
+   https://user-images.githubusercontent.com/12772082/203265993-8036b329-f9f7-4210-889b-7bc2d345c97e.png
+   
+   
+   
 
-# cmall
+5. Circuit Breaker
+   rest로 호출했을때 기다리다가 서킷프래이커를 달자 임계치를 준다음 중지 시킨다.
+   증적 자료가 있어야 한다.
+   쿼리해서 워킹한다.
+   
+   https://user-images.githubusercontent.com/12772082/203271787-55488e4e-6df8-4836-9c68-77fe0d8ac3ce.png
+   
+   
+6. Gateway / Ingress
+   포워딩하는 구조로 해야 한다. 온라인 교육에서 자동 생성
+   1. 트래픽 라우팅 부문 신원 인가 부분 트래픽 메니져먼트 부문
+      만들어 준것을 잘설명 한다.
+	  
+![image](https://user-images.githubusercontent.com/119610308/205787447-7e02bee0-6e2c-4642-8c74-6c94ea6ef618.png)
+
 
 
 2개를 수정 하자 명시 해야 한다.
@@ -85,53 +135,4 @@
 > 수행 내용에 대한 결과과 리포팅을 구들 DOCS에 기재 (이름, URL 기재)
 리포팅 템플릿 Url : [http](https://github.com/ahnchanghee4798/cmall/blob/main/README.md)
 
-
-
-1. Saga(Pub / Sub)  이벤트드리븐 테입 방식으로 녹아 있어야 하나. 디테일 하게 제출
-   
-   
-
-   
-
-2. CQRS 
-   커맨터 액션 수정 삭제 추가
-   데이터 프로덕션  
-	
-	
-	
-	
-   
-3. Compensation /Correlation
-   제고 부족   / 키 버 톤과 같다 where 조건절
-   
-   
-   
-
-
-4. Request / Response
-   동기 호출
-   
-   기존 주문이 되었을때 동기 통신
-   사가를 이용해서 주문이 시작 해서 호출이 되고
-   반드시 해야 할대 동기 호출 할수 있다.
-   10개 시나리오에서 변경해서 제출
-   
-   
-   
-   
-   
-
-5. Circuit Breaker
-   rest로 호출했을때 기다리다가 서킷프래이커를 달자 임계치를 준다음 중지 시킨다.
-   증적 자료가 있어야 한다.
-   쿼리해서 워킹한다.
-   
-   
-   
-   
-6. Gateway / Ingress
-   포워딩하는 구조로 해야 한다. 온라인 교육에서 자동 생성
-   1. 트래픽 라우팅 부문 신원 인가 부분 트래픽 메니져먼트 부문
-      만들어 준것을 잘설명 한다.
-	  
 	  
