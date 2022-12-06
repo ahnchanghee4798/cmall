@@ -88,7 +88,7 @@
    증적 자료가 있어야 한다.
    쿼리해서 워킹한다.
    
-  ![image](https://user-images.githubusercontent.com/119610308/205788027-8bfc952a-c0a3-4957-a499-2baf79a1ddbd.png)
+![image](https://user-images.githubusercontent.com/119610308/205837628-3882cf09-79e2-4457-9a96-0f04c4c1ea7d.png)
    
    
 6. Gateway / Ingress
